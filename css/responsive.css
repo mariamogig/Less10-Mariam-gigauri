@@ -8,6 +8,7 @@
     .burger {
         display: block;
     }
+
 }
 @media (max-width: 1500px) {
     .sec2 {
@@ -15,4 +16,9 @@
         flex-wrap: wrap;
         margin:auto;
     }
+}
+@media (max-width: 650px) {
+.logo {
+    padding-left: 20px;
+}
 }
