@@ -1,0 +1,113 @@
+/* header */
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.burger {
+    display: none;
+    padding-right: 40px;
+    padding-top: 10px;
+    color: grey;
+}
+.nav-ul {
+    display: flex;
+    padding-right: 96px;
+}
+.logo {
+    padding-left: 95px;
+}
+.nav-li {
+    margin-left: 58px;
+    font-size: 16px;
+    columns: #303134;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+
+/* section 1 */
+.background {
+    background-image: url('../images/girl.jpg');
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    /* position: relative; */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titles {
+    text-align: center;
+}
+.title1 {
+    font-size: 75px;
+    color: lavender;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 35px;
+    font-weight: bold;
+}
+.title2 {
+    font-size: 18px;
+    color: lavender;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* section 2 */
+.leftsec {
+    padding-top: 75px;
+    max-width: 240px;
+    width: 100%;
+}
+.lefttitle1 {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    color: #8D8D8D;
+}
+.lefttitle2 {
+    font-size: 26px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin-top: 6px;
+    margin-bottom: 40px;
+    color: #1A1A1B;
+}
+.leftp{
+    color: #8D8D8D;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.sec2 {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
+.rightsec {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 890px;
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 80px;
+}
+.righth3 {
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 22px;
+    font-weight: bold;
+}
+.rightp{
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 9px;
+    margin-bottom: 25px;
+}
+.block {
+  width: 270px;  
+  margin-bottom: 20px;
+}

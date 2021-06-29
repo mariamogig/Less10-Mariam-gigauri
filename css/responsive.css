@@ -1,0 +1,18 @@
+@media (max-width: 950px) {
+    .nav-ul {
+        display: none;
+    }
+    .sec2 {
+        margin:auto;
+    }
+    .burger {
+        display: block;
+    }
+}
+@media (max-width: 1500px) {
+    .sec2 {
+        display: flex;
+        flex-wrap: wrap;
+        margin:auto;
+    }
+}
